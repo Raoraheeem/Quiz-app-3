@@ -1,0 +1,98 @@
+body {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: rgb(0, 0, 0);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(40,170,228,1) 58%, rgba(45,253,244,1) 88%);
+  }
+  
+  .app {
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(32,132,177,1) 51%, rgba(41,214,206,1) 89%);
+    width: 500px;
+    min-height: 250px;
+    height: min-content;
+    border-radius: 15px;
+    padding: 20px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .score-section {
+    text-align: center;
+  }
+  
+  .question-section {
+    width: 100%;
+    position: relative;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+  }
+  
+  .question-count span {
+    font-size: 28px;
+  }
+  
+  .question-text {
+    margin-bottom: 12px;
+    
+    
+  }
+  
+  /* ANSWERS/RIGHT SECTION */
+  .answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20%;
+    
+  }
+ 
+  
+  button {
+    width: 100%;
+    color: #000000;
+    background-color: #0ee2fa;
+   border-radius: 10px;
+    border:none;
+  
+    cursor: pointer;
+   
+  }
+  
+  .correct {
+    background-color: #2f922f;
+  }
+  .wrong{
+    background-color: red;
+  }
+  
+  
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button svg {
+    margin-right: 5px;
+  }
+  .actions {
+    display: flex;
+    margin-top: 15px;
+  }
+  .actions button {
+    background-color: #7cc6fe;
+    justify-content: center;
+  }
+  .actions button:hover {
+    background-color: #234668;
+    color: white;
+  }  
